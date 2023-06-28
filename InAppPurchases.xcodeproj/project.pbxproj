@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6050E9332A4C46BE00214879 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6050E9322A4C46BE00214879 /* StoreKit.framework */; };
+		6050E9352A4C53AA00214879 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6050E9342A4C53AA00214879 /* README.md */; };
 		EB1A216C20DAE91600E70EE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1A216B20DAE91600E70EE7 /* AppDelegate.swift */; };
 		EB1A217120DAE91600E70EE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB1A216F20DAE91600E70EE7 /* Main.storyboard */; };
 		EB1A217320DAE91D00E70EE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB1A217220DAE91D00E70EE7 /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 /* Begin PBXFileReference section */
 		4D8EBA9953117A31F399D715 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = ../Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		6050E9322A4C46BE00214879 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
+		6050E9342A4C53AA00214879 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7991198017CF44272489E13A /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		EB1A216820DAE91600E70EE7 /* InAppPurchases.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InAppPurchases.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB1A216B20DAE91600E70EE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -48,7 +50,6 @@
 		EB1A218F20DAF1D100E70EE7 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		EB1A219120DAF2B400E70EE7 /* ParentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentViewController.swift; sourceTree = "<group>"; };
 		EB5E7AB620E1B6B4005FE1AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
-		EB67D2CA213081110050CC70 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		EBB16BC920DAF92800659D71 /* ProductIds.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ProductIds.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,7 +93,7 @@
 		EB1A215D20DAE88100E70EE7 = {
 			isa = PBXGroup;
 			children = (
-				EB67D2CA213081110050CC70 /* README.md */,
+				6050E9342A4C53AA00214879 /* README.md */,
 				EB1A216A20DAE91600E70EE7 /* iOS */,
 				EB1A217C20DAEC2E00E70EE7 /* Common */,
 				EB1A216920DAE91600E70EE7 /* Products */,
@@ -211,6 +212,7 @@
 			files = (
 				EB1A217620DAE91D00E70EE7 /* LaunchScreen.storyboard in Resources */,
 				EB1A217320DAE91D00E70EE7 /* Assets.xcassets in Resources */,
+				6050E9352A4C53AA00214879 /* README.md in Resources */,
 				EB1A217120DAE91600E70EE7 /* Main.storyboard in Resources */,
 				EB70E59621559935007E3C63 /* ProductIds.plist in Resources */,
 			);
