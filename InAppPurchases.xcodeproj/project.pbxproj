@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		6050E9332A4C46BE00214879 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6050E9322A4C46BE00214879 /* StoreKit.framework */; };
 		6050E9352A4C53AA00214879 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6050E9342A4C53AA00214879 /* README.md */; };
-		6050E9372A4C556100214879 /* SampleCode.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 6050E9362A4C556100214879 /* SampleCode.xcconfig */; };
 		6050E9392A4C557800214879 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6050E9382A4C557800214879 /* LICENSE.txt */; };
+		6050E93B2A4C568800214879 /* SampleCode.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 6050E93A2A4C568800214879 /* SampleCode.xcconfig */; };
 		EB1A216C20DAE91600E70EE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1A216B20DAE91600E70EE7 /* AppDelegate.swift */; };
 		EB1A217120DAE91600E70EE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB1A216F20DAE91600E70EE7 /* Main.storyboard */; };
 		EB1A217320DAE91D00E70EE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB1A217220DAE91D00E70EE7 /* Assets.xcassets */; };
@@ -32,8 +32,8 @@
 /* Begin PBXFileReference section */
 		6050E9322A4C46BE00214879 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
 		6050E9342A4C53AA00214879 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		6050E9362A4C556100214879 /* SampleCode.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		6050E9382A4C557800214879 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE.txt; path = LICENSE/LICENSE.txt; sourceTree = SOURCE_ROOT; };
+		6050E93A2A4C568800214879 /* SampleCode.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = SampleCode.xcconfig; sourceTree = "<group>"; };
 		EB1A216820DAE91600E70EE7 /* InAppPurchases.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InAppPurchases.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB1A216B20DAE91600E70EE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB1A217020DAE91600E70EE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -70,9 +70,9 @@
 		3258DD53E5FB985A18A23F40 /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
-				6050E9362A4C556100214879 /* SampleCode.xcconfig */,
+				6050E93A2A4C568800214879 /* SampleCode.xcconfig */,
 			);
-			name = Configuration;
+			path = Configuration;
 			sourceTree = "<group>";
 		};
 		6050E9312A4C46BE00214879 /* Frameworks */ = {
@@ -88,8 +88,7 @@
 			children = (
 				6050E9382A4C557800214879 /* LICENSE.txt */,
 			);
-			name = LICENSE;
-			path = ../LICENSE;
+			path = LICENSE;
 			sourceTree = "<group>";
 		};
 		EB1A215D20DAE88100E70EE7 = {
@@ -213,9 +212,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB1A217620DAE91D00E70EE7 /* LaunchScreen.storyboard in Resources */,
-				6050E9372A4C556100214879 /* SampleCode.xcconfig in Resources */,
 				EB1A217320DAE91D00E70EE7 /* Assets.xcassets in Resources */,
 				6050E9352A4C53AA00214879 /* README.md in Resources */,
+				6050E93B2A4C568800214879 /* SampleCode.xcconfig in Resources */,
 				EB1A217120DAE91600E70EE7 /* Main.storyboard in Resources */,
 				EB70E59621559935007E3C63 /* ProductIds.plist in Resources */,
 				6050E9392A4C557800214879 /* LICENSE.txt in Resources */,
