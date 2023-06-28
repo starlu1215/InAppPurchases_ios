@@ -1,6 +1,7 @@
 Apple 範例
 修改 ProductIds.plist
-
+Item 0  com.ezeshop365.InAppPurchases.tip.Consumable
+Item 1  com.ezeshop365.InAppPurchases.tip.NonConsumable
 
 
 # Offering, Completing, and Restoring In-App Purchases 
