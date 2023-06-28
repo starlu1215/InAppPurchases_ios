@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		6050E9332A4C46BE00214879 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6050E9322A4C46BE00214879 /* StoreKit.framework */; };
 		6050E9352A4C53AA00214879 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6050E9342A4C53AA00214879 /* README.md */; };
+		6050E9372A4C556100214879 /* SampleCode.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 6050E9362A4C556100214879 /* SampleCode.xcconfig */; };
+		6050E9392A4C557800214879 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6050E9382A4C557800214879 /* LICENSE.txt */; };
 		EB1A216C20DAE91600E70EE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1A216B20DAE91600E70EE7 /* AppDelegate.swift */; };
 		EB1A217120DAE91600E70EE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB1A216F20DAE91600E70EE7 /* Main.storyboard */; };
 		EB1A217320DAE91D00E70EE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB1A217220DAE91D00E70EE7 /* Assets.xcassets */; };
@@ -28,10 +30,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4D8EBA9953117A31F399D715 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = ../Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		6050E9322A4C46BE00214879 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
 		6050E9342A4C53AA00214879 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		7991198017CF44272489E13A /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		6050E9362A4C556100214879 /* SampleCode.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
+		6050E9382A4C557800214879 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE.txt; path = LICENSE/LICENSE.txt; sourceTree = SOURCE_ROOT; };
 		EB1A216820DAE91600E70EE7 /* InAppPurchases.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InAppPurchases.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB1A216B20DAE91600E70EE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB1A217020DAE91600E70EE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -68,7 +70,7 @@
 		3258DD53E5FB985A18A23F40 /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
-				4D8EBA9953117A31F399D715 /* SampleCode.xcconfig */,
+				6050E9362A4C556100214879 /* SampleCode.xcconfig */,
 			);
 			name = Configuration;
 			sourceTree = "<group>";
@@ -84,7 +86,7 @@
 		DB08075F57D2F1267061F355 /* LICENSE */ = {
 			isa = PBXGroup;
 			children = (
-				7991198017CF44272489E13A /* LICENSE.txt */,
+				6050E9382A4C557800214879 /* LICENSE.txt */,
 			);
 			name = LICENSE;
 			path = ../LICENSE;
@@ -211,10 +213,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB1A217620DAE91D00E70EE7 /* LaunchScreen.storyboard in Resources */,
+				6050E9372A4C556100214879 /* SampleCode.xcconfig in Resources */,
 				EB1A217320DAE91D00E70EE7 /* Assets.xcassets in Resources */,
 				6050E9352A4C53AA00214879 /* README.md in Resources */,
 				EB1A217120DAE91600E70EE7 /* Main.storyboard in Resources */,
 				EB70E59621559935007E3C63 /* ProductIds.plist in Resources */,
+				6050E9392A4C557800214879 /* LICENSE.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +269,6 @@
 /* Begin XCBuildConfiguration section */
 		EB1A216220DAE88100E70EE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D8EBA9953117A31F399D715 /* SampleCode.xcconfig */;
 			buildSettings = {
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -303,7 +306,6 @@
 		};
 		EB1A216320DAE88100E70EE7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D8EBA9953117A31F399D715 /* SampleCode.xcconfig */;
 			buildSettings = {
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -339,7 +341,6 @@
 		};
 		EB1A217920DAE91D00E70EE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D8EBA9953117A31F399D715 /* SampleCode.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -414,7 +415,6 @@
 		};
 		EB1A217A20DAE91D00E70EE7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D8EBA9953117A31F399D715 /* SampleCode.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
