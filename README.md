@@ -1,3 +1,8 @@
+Apple 範例
+修改 ProductIds.plist
+
+
+
 # Offering, Completing, and Restoring In-App Purchases 
 Fetch, complete, and restore transactions in your app.
 
