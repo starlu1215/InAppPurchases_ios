@@ -11,6 +11,7 @@
 		6050E9352A4C53AA00214879 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6050E9342A4C53AA00214879 /* README.md */; };
 		6050E9392A4C557800214879 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6050E9382A4C557800214879 /* LICENSE.txt */; };
 		6050E93B2A4C568800214879 /* SampleCode.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 6050E93A2A4C568800214879 /* SampleCode.xcconfig */; };
+		60D889642A51624D00236AAF /* purchases.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 60D889632A51624D00236AAF /* purchases.storekit */; };
 		EB1A216C20DAE91600E70EE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1A216B20DAE91600E70EE7 /* AppDelegate.swift */; };
 		EB1A217120DAE91600E70EE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB1A216F20DAE91600E70EE7 /* Main.storyboard */; };
 		EB1A217320DAE91D00E70EE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB1A217220DAE91D00E70EE7 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 		6050E9342A4C53AA00214879 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6050E9382A4C557800214879 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE.txt; path = LICENSE/LICENSE.txt; sourceTree = SOURCE_ROOT; };
 		6050E93A2A4C568800214879 /* SampleCode.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = SampleCode.xcconfig; sourceTree = "<group>"; };
+		60D889632A51624D00236AAF /* purchases.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = purchases.storekit; sourceTree = "<group>"; };
 		EB1A216820DAE91600E70EE7 /* InAppPurchases.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InAppPurchases.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB1A216B20DAE91600E70EE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB1A217020DAE91600E70EE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				EB1A217220DAE91D00E70EE7 /* Assets.xcassets */,
+				60D889632A51624D00236AAF /* purchases.storekit */,
 				EB1A217720DAE91D00E70EE7 /* Info.plist */,
 				EB1A217420DAE91D00E70EE7 /* LaunchScreen.storyboard */,
 				EB1A216F20DAE91600E70EE7 /* Main.storyboard */,
@@ -214,6 +217,7 @@
 				EB1A217620DAE91D00E70EE7 /* LaunchScreen.storyboard in Resources */,
 				EB1A217320DAE91D00E70EE7 /* Assets.xcassets in Resources */,
 				6050E9352A4C53AA00214879 /* README.md in Resources */,
+				60D889642A51624D00236AAF /* purchases.storekit in Resources */,
 				6050E93B2A4C568800214879 /* SampleCode.xcconfig in Resources */,
 				EB1A217120DAE91600E70EE7 /* Main.storyboard in Resources */,
 				EB70E59621559935007E3C63 /* ProductIds.plist in Resources */,
